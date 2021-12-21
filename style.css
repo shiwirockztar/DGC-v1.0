@@ -1,0 +1,49 @@
+@font-face{
+	src:url(../ima/Bertrade.ttf);
+	font-family:  Ber;
+}
+
+
+*{
+	margin:0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+body{
+	/*background: url(../ima/indexx.png);*/
+	background: url(../ima/Fondo.png);
+
+	background-size: 100% 100%;
+	background-attachment: fixed; /* imagen fija si se dezplaza la barra de dezplazamiento	 */
+	background-size: cover;
+}
+
+header{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    /* width: 1365px; */
+    width: 100vw;
+    height: 113px;
+    /* background-color: aqua; */
+    /* opacity: 0.3; */
+    /* border: 1px solid #FFFFFF; */
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mc{
+    padding: 34px 36px;
+    width: 60px;
+    height: 60px;
+}
+
+.fc{
+    padding-top: 37px;
+    padding-right: 46px;
+    width: 40px;
+    height: 40px;
+}
