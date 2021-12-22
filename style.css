@@ -11,8 +11,8 @@
 	list-style: none;
 }
 body{
-	/*background: url(../ima/indexx.png);*/
-	background: url(../ima/Fondo.png);
+	/* background: url(ima/indexx.png); */
+	background: url(ima/Fondo.png);
 
 	background-size: 100% 100%;
 	background-attachment: fixed; /* imagen fija si se dezplaza la barra de dezplazamiento	 */
@@ -55,11 +55,11 @@ nav a{
     border-radius: 100%;
 }
 .fc{
-    background: url(../ima/facebook.png);
+    background: url(ima/facebook.png);
     background-size: cover;
 }
 nav a:nth-child(3){
-	background: url(../ima/twitter.png);
+	background: url(ima/twitter.png);
 	background-size: cover;
 }
 .divLogoDGC{
@@ -91,6 +91,6 @@ nav a:nth-child(3){
     width: 638px;
     height: 350px;
 	/*background: rgba(115, 115, 115,.5);*/
-	background: url(../ima/BotonEnter.png);
+	background: url(ima/BotonEnter.png);
 	/*cursor: crosshair;*/
 }
