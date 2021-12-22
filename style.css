@@ -23,7 +23,6 @@ header{
     position: relative;
     top: 0px;
     left: 0px;
-    /* width: 1365px; */
     width: 100vw;
     height: 113px;
     /* background-color: aqua; */
@@ -41,9 +40,57 @@ header{
     height: 60px;
 }
 
+nav{
+    /* padding-right: 46px; */
+    margin-right: 46px;
+    padding-top: 0px;
+    margin-top: 0px;
+    /* background-color: rgb(179, 228, 46); */
+   
+}
+nav a{
+    display: inline-block;
+    margin-left: 32px;          /* distancia entre cada item de navegacion (a) */
+    width: 40px; height: 40px;  /* dimension cada item */
+    border-radius: 100%;
+}
 .fc{
-    padding-top: 37px;
-    padding-right: 46px;
-    width: 40px;
-    height: 40px;
+    background: url(../ima/facebook.png);
+    background-size: cover;
+}
+nav a:nth-child(3){
+	background: url(../ima/twitter.png);
+	background-size: cover;
+}
+.divLogoDGC{
+    position:absolute ;
+    top: 113px;
+    left: 0px;
+    display: flex;
+    width: 91.8vw;
+    height: 348px;
+    /* background-color: rgb(179, 228, 46); */
+}
+.divLogoDGC img{
+    /* position: absolute; */
+    margin-top: 39px;
+    margin-top: 2.85vw;
+    margin-left: 385px; 
+    margin-left: 28.2vw;
+    width: 638px;
+    width: 46.7vw;
+    /* width: 50.9%; */
+    height: 350px;
+    height: 25.6vw;
+}
+
+.botonStart{
+	position:absolute ;
+	top: 152px;
+	left: 385px;
+    width: 638px;
+    height: 350px;
+	/*background: rgba(115, 115, 115,.5);*/
+	background: url(../ima/BotonEnter.png);
+	/*cursor: crosshair;*/
 }
